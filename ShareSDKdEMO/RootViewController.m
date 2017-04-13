@@ -70,11 +70,11 @@
 
 //@"http://www.baidu.com" 
 - (void)showsSearchClick{
-//    if ([QQApiInterface isQQInstalled]) {
-//        NSLog(@"QQ已安装");
-//    }else{
-//        NSLog(@"QQ未安装");
-//    }
+    if ([QQApiInterface isQQInstalled]) {
+        NSLog(@"QQ已安装");
+    }else{
+        NSLog(@"QQ未安装");
+    }
 
     //1、创建分享参数（必要）
     
